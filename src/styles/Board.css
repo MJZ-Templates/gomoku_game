@@ -1,0 +1,15 @@
+/* src/styles/Board.css */
+.game-board {
+    display: block;
+    margin: auto;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .status {
+    font-size: 20px;
+    color: #333;
+  }
+  

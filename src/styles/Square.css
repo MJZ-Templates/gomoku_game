@@ -1,0 +1,31 @@
+/* src/styles/Square.css */
+.square {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .square.x, .square.o {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .square.x {
+    background-color: #f76c6c;
+  }
+  
+  .square.o {
+    background-color: #4d90fe;
+  }
+  
+  .highlight {
+    background-color: #ffeb3b !important;
+  }
+  
